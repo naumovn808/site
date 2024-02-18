@@ -91,4 +91,44 @@
 .navigate .active {
   background-color: #1f1f1f;
   color: white;
+}
+
+.banner {
+  background-image: url(img/main-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  padding: 160px 0;
+}
+.banner__square {
+  width: 320px;
+  height: 320px;
+  border: 4px solid #fff;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.banner img {
+  display: block;
+  margin: 0 auto;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+  margin-top: 93px;
+}
+.banner__desc {
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  margin-top: 7px;
+}
+.banner__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
