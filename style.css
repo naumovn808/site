@@ -82,6 +82,11 @@
   color: gray;
   padding: 30px 20px;
   cursor: pointer;
+  transition: background-color, color, 0.5s;
+}
+.navigate__link:hover {
+  background-color: #1f1f1f;
+  color: white;
 }
 .navigate .active {
   background-color: #1f1f1f;

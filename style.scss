@@ -92,6 +92,13 @@
         color: gray;
         padding: 30px 20px;
         cursor: pointer;
+        transition: background-color, color, 0.5s;
+
+        &:hover {
+            background-color: #1f1f1f;
+            color: white;
+        }
+
     }
 
     & .active {
