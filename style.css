@@ -1,8 +1,36 @@
+@font-face {
+  font-family: "PayfairDisplay";
+  src: local("PayfairDisplay"), url("./fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PayfairDisplay";
+  src: local("PayfairDisplay"), url("./fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PTSans";
+  src: local("PTSans"), url("./fonts/PTSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PostNoBillsJaffna";
+  src: local("Archangelsk"), url("./fonts/PostNoBillsJaffna-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
+}
+
+body {
+  font-family: "PTSans", sans-serif;
 }
 
 .container {
